@@ -27,9 +27,7 @@ make menuconfig
 
 From the menu, select the following options:
 
-'Atheros ATH79' as Target System
-'Generic' as Subtarget
-'Teltonika RUT955' as Target Profile
+'Atheros ATH79' as Target System,'Generic' as Subtarget,'Teltonika RUT955' as Target Profile
 
 After making these choices, select 'Exit' from the configuration menu and save your changes. You can now build the target-independent tools and the cross-compilation toolchain:
 
